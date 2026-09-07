@@ -1,12 +1,12 @@
-# 🚗 Vehicle Rental Database — SQL Project
+#  Vehicle Rental Database — SQL Project
 
 A relational database project simulating a vehicle rental business — schema design, sample data generation, and 40 SQL practice problems (easy to hard).
 
-## 📋 Overview
+##  Overview
 
 This project models a complete vehicle rental system with **10 interconnected tables**, covering branches, employees, customers, vehicles, bookings, payments, reviews, maintenance, and insurance records. It includes over **21,000 realistic sample records** and a curated set of practice SQL queries ranging from beginner to advanced.
 
-## 🗂️ Database Structure
+##  Database Structure
 
 | Table | Description |
 |---|---|
@@ -23,7 +23,7 @@ This project models a complete vehicle rental system with **10 interconnected ta
 
 **Bookings** is the central table, connecting Customers, Vehicles, Branches, Payments, and Reviews. **Vehicles** is the second most connected table, tying together Categories, Maintenance, and Insurance.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 vehicle-rental-sql-project/
@@ -33,11 +33,11 @@ vehicle-rental-sql-project/
 └── README.md
 ```
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 - **Database:** MySQL 8.x
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 1. Create a database:
    ```sql
@@ -54,7 +54,7 @@ vehicle-rental-sql-project/
    ```
 4. Explore the practice queries in `/queries` to test your SQL skills against the dataset — from basic `SELECT` statements to window functions and CTEs.
 
-## 📊 Sample Query
+##  Sample Query
 
 Find the customer who has spent the most money in total across all bookings:
 
