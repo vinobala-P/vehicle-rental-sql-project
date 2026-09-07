@@ -68,7 +68,7 @@ ORDER BY total_spent DESC
 LIMIT 1;
 ```
 
-## 🎯 What This Project Demonstrates
+##  What This Project Demonstrates
 
 - Relational database design with primary/foreign key relationships
 - Realistic sample data generation
